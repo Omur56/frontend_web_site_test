@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F1F1F1;
+    margin: 0;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+header {
+    width: 100%;
+    background-color: #FFFFFF;
+    height: 100px;
+}
+
+
+.email_text_button {
+    display: flex;
+    column-gap: 884px;
+    margin-left: 111px;
+    padding-top: 40px;
+}
+
+.hola_link_header {
+
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.25px;
+    letter-spacing: -0.29px;
+    text-align: center;
+    text-decoration: none;
+    color: #1E0E62;
+}
+
+.header_email_btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 100px;
+    border: 2px solid #EBEAED;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #1E0E62;
+}
+
+.title_divider {
+    width: 1400px;
+    height: 520px;
+    background-color: #F1F1F1;
+    display: flex;
+    column-gap: 177px;
+}
+
+.fulstack_text {
+    display: block;
+}
+
+.title_text {
+    width: 422px;
+    height: 169px;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #1E0E62;
+    margin-top: 109px;
+    margin-left: 116px;
+}
+
+.text_carier {
+    width: 369px;
+    height: 153px;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #15143966;
+    margin-left: 116px;
+}
+
+.dog {
+    width: 570px;
+    height: 451px;
+    margin-top: 53px;
+}
+
+.mis_habilidades_divider {
+    height: 700px;
+    background-color: #F1F1F1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mis_habilidades_title_divider {
+    display: block;
+    padding-top: 99px;
+}
+
+.react_php_sql_seo_divider {
+    width: 973px;
+    height: 127px;
+    margin-left: 219px;
+    display: flex;
+    margin-top: 95px;
+    column-gap: 75px;
+}
+
+.mis_habilidades_title_text {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: -0.4px;
+    text-align: center;
+    color: #1E0E62;
+}
+
+.main_prinsip_text {
+    font-size: 22px;
+    margin-top: 40px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    color: #15143966;
+}
+
+.react_sql_seo_divider {
+    display: block;
+    width: 283px;
+    height: 127px;
+}
+
+.react_title_text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    color: #1E0E62;
+}
+
+.react_text {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: center;
+    color: #15143966;
+}
+
+.mi_experiencia_divider {
+    display: block;
+    width: 758px;
+    height: 241px;
+    margin-top: 100px;
+    margin-left: 321px;
+    text-align: center;
+}
+
+.mi_experiencia_title_text {
+    font-size: 42px;
+    letter-spacing: -0.4px;
+    line-height: 52px;
+    text-align: center;
+    color: #1E0E62;
+}
+
+.fullStack_developer_text {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #15143966;
+    margin-top: 20.2px;
+}
+
+.github_contacto_btn {
+    width: 200px;
+    height: 50px;
+    margin-top: 54.8px;
+    border-radius: 100px;
+    background-color: #25DAC5;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.card_divider {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    margin-top: 79px;
+    text-align: start;
+}
+
+.card {
+    width: 370px;
+    height: 354px;
+}
+
+.card_img {
+    width: 370px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+.traboj_text_title {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #1E0E62;
+}
+
+.trabjo_text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #15143966;
+}
+
+footer {
+    height: 715px;
+    background-color: #F1F1F1;
+    text-align: center;
+
+}
+
+.footer_heder_text {
+    text-align: center;
+    padding-top: 194px;
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #1E0E62;
+}
+
+.footer_email_text {
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: -1px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 9px;
+}
+
+.social_icon {
+    margin-top: 134px;
+    display: flex;
+    justify-content: center;
+    column-gap: 58px;
+}
+
+
+@media  (max-width: 600px) {
+    .header_divider{
+        width: 100%;
+        height: 90px;
+        background-color: #FFFFFF;
+    }
+
+    .email_text_button{
+        display: flex;
+        column-gap: 253px;
+        margin-left: 27px;
+    }
+    .title_divider{
+        display: block;
+    }
+    .title_text{
+        font-size: 43px;
+        line-height: 60px;
+        
+    }
+  }
