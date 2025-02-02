@@ -4,13 +4,12 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #F1F1F1;
-    margin: 0;
-}
+body{
+    font-family: "Source Sans 3", serif;
+  font-optical-sizing: auto;
 
+}
 .container {
-    width: 1400px;
     margin: 0 auto;
     padding: 0 auto;
 }
@@ -27,6 +26,8 @@ header {
     column-gap: 884px;
     margin-left: 111px;
     padding-top: 40px;
+    justify-content: center;
+
 }
 
 .hola_link_header {
@@ -52,12 +53,21 @@ header {
     color: #1E0E62;
 }
 
+.mi_experiencia {
+    width: 100%;
+    background-color: #FFFFFF;
+    height: 1300px;
+    justify-content: center;
+    display: block;
+}
+
 .title_divider {
-    width: 1400px;
+    width: 100%;
     height: 520px;
     background-color: #F1F1F1;
     display: flex;
     column-gap: 177px;
+    justify-content: center;
 }
 
 .fulstack_text {
@@ -71,7 +81,7 @@ header {
     font-weight: 700;
     line-height: 60px;
     color: #1E0E62;
-    margin-top: 109px;
+    padding-top: 109px;
     margin-left: 116px;
 }
 
@@ -81,6 +91,7 @@ header {
     font-size: 22px;
     line-height: 26px;
     font-weight: 400;
+    margin-top: 100px;
     color: #15143966;
     margin-left: 116px;
 }
@@ -92,7 +103,8 @@ header {
 }
 
 .mis_habilidades_divider {
-    height: 700px;
+    width: 100%;
+    height: 855px;
     background-color: #F1F1F1;
     justify-content: center;
     align-items: center;
@@ -100,17 +112,20 @@ header {
 }
 
 .mis_habilidades_title_divider {
+    width: 100%;
     display: block;
     padding-top: 99px;
+    justify-content: center;
 }
 
 .react_php_sql_seo_divider {
-    width: 973px;
+    width: 100%;
     height: 127px;
-    margin-left: 219px;
     display: flex;
     margin-top: 95px;
     column-gap: 75px;
+    justify-content: center;
+
 }
 
 .mis_habilidades_title_text {
@@ -130,7 +145,9 @@ header {
     text-align: center;
     color: #15143966;
 }
-
+.main_prinsip_text_mobile{
+    display: none;
+}
 .react_sql_seo_divider {
     display: block;
     width: 283px;
@@ -155,11 +172,10 @@ header {
 
 .mi_experiencia_divider {
     display: block;
-    width: 758px;
     height: 241px;
-    margin-top: 100px;
-    margin-left: 321px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .mi_experiencia_title_text {
@@ -168,6 +184,8 @@ header {
     line-height: 52px;
     text-align: center;
     color: #1E0E62;
+    padding-top: 100px;
+
 }
 
 .fullStack_developer_text {
@@ -177,7 +195,9 @@ header {
     color: #15143966;
     margin-top: 20.2px;
 }
-
+.fullStack_developer_text_mobile{
+    display: none;
+}
 .github_contacto_btn {
     width: 200px;
     height: 50px;
@@ -192,12 +212,31 @@ header {
     color: #FFFFFF;
     cursor: pointer;
 }
+.card_group_mobile{
+    display:block;
+}
+.card_mobile{
+    display: block;
+}
+.card_divider_mobile{
+    display: block;
+}
+
+
+.card_group {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 
 .card_divider {
+    width: 1170px;
     display: grid;
     grid-template-columns: repeat(3, 3fr);
-    margin-top: 79px;
     text-align: start;
+    margin: 183.8px 115px;
+    justify-content: center;
 }
 
 .card {
@@ -257,26 +296,251 @@ footer {
     justify-content: center;
     column-gap: 58px;
 }
+.react_sql_seo_divider_mobile{
+    display: none;
+}
 
+.card_mobile_2{
+    display: none;
+}
+.card_mobile{
+    display: none;
+}
+.react_sql_seo_divider_mobile_2{
+    display: none;
+}
 
-@media  (max-width: 600px) {
-    .header_divider{
-        width: 100%;
-        height: 90px;
-        background-color: #FFFFFF;
-    }
+@media (max-width: 600px) {
+   header{
+    width: 100%;
+    height: 90px;
+   }
 
-    .email_text_button{
-        display: flex;
-        column-gap: 253px;
-        margin-left: 27px;
-    }
-    .title_divider{
-        display: block;
-    }
-    .title_text{
-        font-size: 43px;
-        line-height: 60px;
-        
-    }
-  }
+   .container{
+    margin: 0 auto;
+    padding:0 auto;
+   }
+
+   .email_text_button{
+    display: flex;
+    column-gap:253px;
+    margin-left: 27px;
+    padding-top: 29px;
+   }
+   .hola_link_header{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 31.25px;
+    letter-spacing: -0.29px;
+    text-align: center;
+    cursor: pointer;
+   }
+   .header_email_btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 100px;
+    border: 2px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    text-align: center;
+    color: #1E0E62;
+    cursor: pointer;
+   }
+   .header_email_btn:active{
+    background-color: #0569ed;
+    color: #FFFFFF;
+    cursor: pointer;
+   }
+
+   .title_divider{
+    width: 100%;
+    height:752px;
+    background-color: #F1F1F1;
+    display: block;
+    
+   }
+   .fulstack_text{
+    display: block;
+   }
+   .title_divider{
+    width: 100%;
+   
+   }
+
+   .title_text{
+    font-size: 43px;
+    line-height: 60px;
+    font-weight: bold;
+    margin-left: 48px;
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+   }
+
+   .text_carier{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    margin-left: 48px;
+   }
+   .dog{
+    width: 359px;
+    height: 236px;
+    margin-left: 48px;
+    margin-top: 0;
+   }
+
+   .react_php_sql_seo_divider{
+    display: none;
+   }
+
+   .react_php_sql_seo_divider_mobile{
+    margin-top: 13px;
+    display:block;
+   }
+
+   .mis_habilidades_title_divider{
+   display: block;
+    padding-top: 0;
+   }
+   .mis_habilidades_title_text{
+    font-size: 52px;
+    line-height: 28px;
+    font-weight: 500;
+    margin-left: 50px;
+    text-align: start;
+   
+   }
+   .main_prinsip_text{
+  
+    display: none;
+   }
+ .main_prinsip_text_mobile{
+    
+    height: 153px;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 500;
+  text-align: start;
+  color: #15143966;
+  margin-top: 56px;
+margin-left: 50px;
+    display: block;
+    text-align: start;
+ }
+
+   .react_sql_seo_divider_mobile{
+    display: block;
+justify-content: start;
+margin-left: 70px;
+margin-top: 0;
+column-gap: 79px;
+
+   }
+ .react_title_text_mobile{
+    text-align: start;
+    font-size:28px ;
+    font-weight: 500;
+    line-height: 28px;
+    color:#1E0E62;
+    margin-top: 13px;
+   
+ }
+
+ .react_text_mobile{
+    font-size: 16px;
+    line-height:26px;
+    font-weight: 400;
+    color: #15143966;
+    text-align: start;
+    margin-top: 21px;
+ }
+ .react_sql_seo_divider_mobile_2{
+    margin: 79px 70px;
+
+ }
+
+.mi_experiencia{
+    display: block;
+}
+ .mi_experiencia_title_text{
+    font-size: 52px;
+    line-height: 28px;
+    font-weight: 500;
+    text-align: center;
+   
+ }
+ .fullStack_developer_text{
+ display: none;
+ }
+ .fullStack_developer_text_mobile{
+        height: 154px;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 500;
+    text-align: center;
+    
+    display: block;
+    color: #15143966;
+    margin-top: 56px;
+ }
+ .github_contacto_btn{
+    margin-top: 0;
+
+ }
+ .card_group{
+    display: none;
+ }
+
+ .card_group_mobile{
+    display: block;
+    margin-top: 230px;
+   
+ }
+ .card_img_mobile{
+    width: 450px;
+    height:254.92px;
+  
+ }
+
+ .card_divider_mobile{
+    display: block;
+    margin-left: 32px;
+ }
+
+ .card_mobile{
+    
+    display: block;
+    width: 509px;
+    height: 376px;
+ }
+ .traboj_text_title_mobile{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #1E0E62;
+    margin-top: 21.24px;
+
+ }
+
+ .trabjo_text_mobile{
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #15143966;
+    margin-top: 21.61px;
+ }
+
+ .card_mobile_2{
+    margin-top: 45px;
+    display: block;
+ }
+
+ .footer_heder_text{
+    font-size: 22px;
+ }
+ .footer_email_text{
+    font-size: 22px;
+ }
+}
